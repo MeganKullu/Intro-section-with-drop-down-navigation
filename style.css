@@ -29,6 +29,17 @@ li {
   margin-right: 30px;
 }
 
+.drop-down {
+  display: none;
+}
+
+.left-side li:hover .drop-down {
+  display: block;
+}
+
+.drop-down {
+}
+
 .logo {
   font-weight: 900;
   font-size: 1.5rem;
