@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Outfit:wght@200;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=Outfit:wght@200;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.main-body {
+  display: grid;
+  max-height: 100vh;
+  grid-template-rows: 10vh 70vh 20vh;
+  font-family: "Epilogue";
+  font-weight: 350;
+  padding: 10px 30px 40px 30px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li {
+  margin-right: 30px;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-side a:hover,
+.left-side a:hover {
+  background-color: hsla(0, 0%, 8%, 0.89);
+  color: white;
+  display: block;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.login a:hover {
+  background-color: hsla(0, 0%, 8%, 0.89);
+  color: white;
+  display: block;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.register {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  justify-self: end;
+}
+
+.register a:hover {
+    background-color: hsla(0, 0%, 8%, 0.89);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.main {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.left-half {
+  display: grid;
+  grid-template-rows: 40px 20px 20x 20px;
+  margin-right: 80px;
+}
+
+.image > img {
+  display: grid;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 4rem;
+  padding-top: 70px;
+}
+
+.text {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 200px;
+}
+
+.button {
+  display: block;
+  background-color: hsl(0, 0%, 8%);
+  padding: 15px 30px;
+  color: hsl(0, 0%, 98%);
+  width: 150px;
+  border-radius: 10px;
+}
+
+.bottom-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
